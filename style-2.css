@@ -386,6 +386,13 @@ body {
   border: #000 1px solid;
   background-color: #000;
 }
+.conta:hover {
+  background-color: #000;
+}
+.conta {
+  border: #000 1px solid;
+  background-color: white;
+}
 .cnt-hv:hover {
   background: transparent;
   color: #000 !important;
