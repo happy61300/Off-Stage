@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8f8f8;
+}
+.inter- {
+  font-family: "Inter", sans-serif;
+}
+nav,
+.bg-hero {
+  background: linear-gradient(
+    270deg,
+    #e3e3e3 0.95%,
+    #f2f2f2 16.46%,
+    #fdfdfd 42.75%,
+    #fbfbfb 63.88%,
+    #f3f3f3 80.26%,
+    #e8e8e8 91.66%,
+    #e3e3e3 99.92%
+  );
+}
+.h-color {
+  background: linear-gradient(
+    90deg,
+    #8127aa 44.14%,
+    #336aa7 55.47%,
+    #6da6a8 64.67%,
+    #2576a6 74.25%,
+    #bd966f 88.42%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.f-cl:hover {
+  background: linear-gradient(
+    90deg,
+    #8127aa 44.14%,
+    #336aa7 55.47%,
+    #6da6a8 64.67%,
+    #2576a6 74.25%,
+    #bd966f 88.42%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.box-shadow-price {
+  box-shadow: 0px 20px 100px 0px rgba(34, 34, 34, 0.15);
+}
+.swiper {
+  width: 70%;
+  height: auto;
+}
+.swiper-pagination {
+  color: #ffffff !important;
+}
+.swiper-2 {
+  height: 500px;
+  margin-right: 0%;
+}
+/* swiper-2 */
+.event-slider .swiper-slide {
+  text-align: center;
+}
+/* media*/
+@media (min-width: 300px) and (max-width: 1023px) {
+  .swiper {
+    width: 100%;
+  }
+}
