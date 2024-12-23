@@ -252,9 +252,9 @@
 }
 /* media */
 
-@media (min-width: 300px) and (max-width: 1200px) {
+@media (min-width: 300px) and (max-width: 1220px) {
   .subscribe {
-    margin-left: -35px !important;
+    margin-left: -52px !important;
   }
   .mt-50 {
     margin-top: 20px;
