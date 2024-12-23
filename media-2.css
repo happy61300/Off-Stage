@@ -254,7 +254,7 @@
 
 @media (min-width: 300px) and (max-width: 1200px) {
   .subscribe {
-    margin-left: -45px !important;
+    margin-left: -35px !important;
   }
   .mt-50 {
     margin-top: 20px;
@@ -277,6 +277,9 @@
     max-width: 1240px;
     margin: auto;
     padding: 0px 16px;
+  }
+  .container-black {
+    padding: 0px 7px;
   }
 }
 @media (min-width: 700px) and (max-width: 1000px) {
