@@ -397,6 +397,9 @@ body {
   background: transparent;
   color: #000 !important;
 }
+.min-w-287 {
+  min-width: 287px;
+}
 .join-hv:hover {
   background: transparent;
   color: #ffffff !important;
@@ -454,6 +457,14 @@ body {
 .bottom-auto {
   bottom: auto;
 }
+.nev-btn .swiper-button-next,
+.swiper-button-prev {
+  max-width: 320px !important;
+}
+.text-black {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
 /* slider-2--- */
 
 .slider-text p {
@@ -469,10 +480,10 @@ body {
 }
 
 .slider-text p,
-.slider-text small {
+.slider-text {
   color: black;
 }
-.arrow-2 .swiper-button-next-2,
+.swiper-button-next-2,
 .swiper-button-prev-2 {
   position: absolute !important;
 

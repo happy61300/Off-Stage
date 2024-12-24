@@ -1,104 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Swiper demo</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Demo styles -->
-    <style>
-      html,
-      body {
-        position: relative;
-        height: 100%;
-        width: 100%;
-      }
-      .swiper-slide-active {
-        background-color: brown;
-        background: transparent;
-      }
-
-      body {
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-
-        margin: 0;
-        padding: 0;
-      }
-
-      .swiper {
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
-
-      .swiper-slide {
-        background-position: center;
-        background-size: cover;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-      }
-    </style>
+    <title>slider</title>
   </head>
-
   <body>
-    <!-- Swiper -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="bg-black-300 z-[11] bg-cover w-full">
-            <img src="./assest/img/png/slider.jpg" alt="dd" />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <img width="100%" src="./assest/img/png/slider.jpg" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img src="./assest/img/png/slider.jpg" alt="" />
-        </div>
-        <div class="swiper-slide">
-          <img src="./assest/img/png/slider.jpg" alt="" />
-        </div>
+    <div class="m-40 flex items-center group">
+      <div
+        class="max-w-[90px] group-hover:scale-[0.61] duration-300 group-hover:translate-x-[80px]"
+      >
+        <img
+          width="100%"
+          src="./assest/img/png/arrow-thin-removebg-preview.png"
+          alt="aarrow"
+        />
       </div>
-      <div class="swiper-pagination"></div>
+
+      <div>
+        <a
+          href="#"
+          class="border border-black rounded-[42px] border-dotted py-6 px-9 group-hover:border-dashed duration-100 group-hover:border-[1.4px] group-hover:px-10 group-hover:py-7"
+        ></a>
+      </div>
     </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-pagination"></div>
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        slidesPerView: 3,
-        loop: true,
-        centeredSlides: true,
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
-    </script>
   </body>
 </html>

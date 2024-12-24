@@ -211,7 +211,7 @@
                 <div class="pt-4 pt-sm-5">
                   <a
                     href="#"
-                    class="btn btn-outline-light fs-16 text-black rounded-pill px-md-5 py-md-3 py-2 px-3"
+                    class="get-started btn-outline-light fs-16 rounded-pill px-md-5 py-md-3 py-2 px-3"
                   >
                     Get Started
                   </a>
@@ -321,28 +321,10 @@
                 <div
                   class="mb-5 mt-4 position-absolute b-0 bottom-0 left-40 nev-btn"
                 >
-                  <div>
-                    <button
-                      class="swiper-button-prev text-black position-absolute bg-black"
-                      style="
-                        left: 10px;
-                        width: 60px;
-                        border: none;
-                        color: black;
-                        border: transparent;
-                      "
-                    >
-                      <svg
-                        viewBox="0 0 26 28"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1.29 11.3971C-0.430001 12.6871 -0.430001 15.2692 1.29 16.5592L14.1943 26.2257C16.3207 27.8167 19.3543 26.3009 19.3543 23.6457L19.3543 4.3064C19.3543 1.649 16.3185 0.13325 14.1943 1.7264L1.29 11.3971ZM23.65 26.875C23.65 27.1601 23.7633 27.4335 23.9649 27.6351C24.1665 27.8367 24.4399 27.95 24.725 27.95C25.0101 27.95 25.2835 27.8367 25.4851 27.6351C25.6867 27.4335 25.8 27.1601 25.8 26.8749L25.8 1.07495C25.8 0.789841 25.6867 0.51641 25.4851 0.314809C25.2835 0.113206 25.0101 -5.06843e-05 24.725 -5.06718e-05C24.4399 -5.06594e-05 24.1665 0.113206 23.9649 0.314809C23.7633 0.51641 23.65 0.789842 23.65 1.07495L23.65 26.875Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </button>
+                  <div
+                    class="swiper-button-prev text-black position-absolute bg-black"
+                  >
+                    <img src="./assest/img/svg/prev.svg" alt="prev" />
                   </div>
                   <div
                     class="swiper-button-next text-black position-absolute"
@@ -367,7 +349,7 @@
 
             <!-- Right Column with Swiper -->
             <div class="col-md-7 col-12">
-              <div class="swiper">
+              <div class="swiper swiper-1">
                 <div class="swiper-wrapper">
                   <!-- Slide 1 -->
                   <div class="swiper-slide">
@@ -475,7 +457,7 @@
             </div>
           </div>
           <!-- Swiper Section -->
-          <div class="col-12 col-lg-8 d-flex swiper2 p-sm-0">
+          <div class="col-12 col-lg-8 d-flex myswiper2 p-sm-0">
             <div class="swiper mySwiper-2">
               <div class="swiper-wrapper">
                 <!-- Slide 1 -->
@@ -826,8 +808,7 @@
                 Subscribe to our newsletter
               </p>
               <label
-                class="d-flex align-items-center bg-white py-1 pad-white rounded-pill max-w-277 justify-content-between"
-                style="min-width: 287px"
+                class="d-flex align-items-center bg-white py-1 pad-white rounded-pill max-w-277 justify-content-between min-w-287"
               >
                 <input
                   placeholder="Enter your email"
@@ -899,7 +880,7 @@
     <!-- Swiper JS and CSS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-      var swiper = new Swiper(".swiper", {
+      var swiper = new Swiper(".swiper-1", {
         loop: true,
         navigation: {
           nextEl: ".swiper-button-next",

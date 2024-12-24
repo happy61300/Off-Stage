@@ -16,6 +16,9 @@
   .flower-img {
     display: none !important;
   }
+  .min-w-287 {
+    min-width: 217px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -43,9 +46,7 @@
   .swiper-button-prev {
     width: 40px;
   }
-  .mt-196 {
-    margin-top: 30px;
-  }
+
   .right-0-f {
     right: 40px !important;
     left: auto;
